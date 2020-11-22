@@ -7,9 +7,10 @@ low_val = 999999999999
 low_key = ""
  
 name_hash.each do |key, value|
-   if value < low_val && name_hash.length >= 1 
+   if name_hash.length >= 1 && value < low_val 
      low_val = value 
      low_key = key
+   else false 
     end
   end 
 low_key
