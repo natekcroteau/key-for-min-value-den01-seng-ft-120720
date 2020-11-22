@@ -11,12 +11,12 @@ name_hash.each do |key, value|
    if value < low_val 
      low_val = value 
      low_key = key 
-     
+     name_hash.empty?
    
     end
     
   end 
 
 low_key
-name_hash.empty? == nil 
+
 end
