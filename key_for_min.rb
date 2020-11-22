@@ -16,6 +16,6 @@ name_hash.each do |key, value|
     
   end 
 
-low_key
+p low_key
 
 end
