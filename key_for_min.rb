@@ -10,7 +10,7 @@ name_hash.each do |key, value|
    if value < low_val
      low_val = value 
      low_key = key
-   else key.empty? = false 
+   else key.empty? == false 
     end
   end 
 low_key
