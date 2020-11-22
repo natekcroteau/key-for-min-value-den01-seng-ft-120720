@@ -8,11 +8,11 @@ low_key = ""
  
 name_hash.each do |key, value|
    
-   if key.length >1 && value < low_val 
+   if value < low_val 
      low_val = value 
      low_key = key 
      
-   else nil 
+   
     end
     
   end 
