@@ -16,5 +16,7 @@ name_hash.each do |key, value|
     end
     
   end 
+
 low_key
+name_hash.empty?
 end
